@@ -4,7 +4,7 @@ A modern, responsive personal portfolio website showcasing my profile, skills, p
 
 ## 🚀 Live Website
 
-**🔗 [https://ais-pre-ezesvtmigejodiqy7ebtf2-486743260729.asia-southeast1.run.app](https://ais-pre-ezesvtmigejodiqy7ebtf2-486743260729.asia-southeast1.run.app)**
+**🔗 https://renukaport.netlify.app/**
 
 ---
 
