@@ -1,20 +1,82 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# 🌐 Personal Portfolio Website
 
-# Run and deploy your AI Studio app
+A modern, responsive personal portfolio website showcasing my profile, skills, projects, achievements, and contact information. This website was created using AI-assisted development with Google AI Studio and designed to provide a clean and professional digital identity.
 
-This contains everything you need to run your app locally.
+## 🚀 Live Website
 
-View your app in AI Studio: https://ai.studio/apps/50c5bd7f-36b9-43e6-8e83-14ee1c7df8c5
+**🔗 [https://ais-pre-ezesvtmigejodiqy7ebtf2-486743260729.asia-southeast1.run.app](https://ais-pre-ezesvtmigejodiqy7ebtf2-486743260729.asia-southeast1.run.app)**
 
-## Run Locally
+---
 
-**Prerequisites:**  Node.js
+## 👨‍💻 About Me
 
+Hi, I'm **C R Renuka**, a third-year Computer Science Engineering student passionate about Artificial Intelligence, Full Stack Development, and building real-world software solutions.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+I enjoy learning new technologies, solving challenging problems, and developing modern web applications.
+
+---
+
+## ✨ Features
+
+* Responsive Design
+* Modern UI/UX
+* Smooth Scrolling
+* Animated Hero Section
+* About Me Section
+* Skills Showcase
+* Project Portfolio
+* Achievements Timeline
+* Contact Section
+* Mobile-Friendly Layout
+* Clean and Professional Design
+
+---
+
+## 🛠️ Technologies Used
+
+* HTML5
+* CSS3
+* JavaScript
+* Google AI Studio
+
+---
+
+## 📂 Website Sections
+
+* Home
+* About
+* Education
+* Skills
+* Projects
+* Achievements
+* Contact
+
+---
+
+## 📞 Contact
+
+**Name:** C R Renuka
+
+**Email:** [crrenuka28@gmail.com](mailto:crrenuka28@gmail.com)
+
+**Phone:** +91 9940211156
+
+**Location:** Chennai, India
+
+---
+
+## 🎯 Objective
+
+The goal of this project is to create a professional online portfolio that highlights my technical skills, projects, and achievements while demonstrating how AI tools can accelerate website development.
+
+---
+
+## 🙏 Acknowledgement
+
+This project was developed as part of an AI-based website development activity to explore how AI can simplify the process of creating modern websites without extensive manual coding.
+
+---
+
+## 📜 License
+
+This project is open for learning and educational purposes.
