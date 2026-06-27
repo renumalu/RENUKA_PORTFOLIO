@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", "Inter", sans-serif;
+  --font-display: "Outfit", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-brand-50: #f5f3ff;
+  --color-brand-100: #ede9fe;
+  --color-brand-200: #ddd6fe;
+  --color-brand-300: #c4b5fd;
+  --color-brand-400: #a78bfa;
+  --color-brand-500: #8b5cf6;
+  --color-brand-600: #7c3aed;
+  --color-brand-700: #6d28d9;
+  --color-brand-800: #5b21b6;
+  --color-brand-900: #4c1d95;
+  
+  --color-accent-50: #eff6ff;
+  --color-accent-100: #dbeafe;
+  --color-accent-500: #3b82f6;
+  --color-accent-600: #2563eb;
+  --color-accent-700: #1d4ed8;
+}
+
+/* Custom scroll behavior and styling */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem; /* Navbar height offset */
+}
+
+body {
+  background-color: #05010d;
+  color: #ffffff;
+  overflow-x: hidden;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom glassmorphism card styled for Bento Grid theme */
+.glass-card {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glass-card:hover {
+  border-color: rgba(157, 80, 187, 0.35);
+  box-shadow: 0 16px 40px -15px rgba(110, 72, 170, 0.3);
+  transform: translateY(-4px);
+}
+
+.glass-navbar {
+  background: rgba(5, 1, 13, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+/* Subtle accent glow backdrops */
+.glow-spot-indigo {
+  position: absolute;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(45, 135, 255, 0.15) 0%, rgba(45, 135, 255, 0) 70%);
+  filter: blur(40px);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.glow-spot-purple {
+  position: absolute;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(157, 80, 187, 0.18) 0%, rgba(157, 80, 187, 0) 70%);
+  filter: blur(40px);
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Typing cursor animation */
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.typing-cursor {
+  border-right: 3px solid #9d50bb;
+  animation: blink 0.75s step-end infinite;
+}
+
+/* High-contrast gradient text */
+.text-gradient {
+  background: linear-gradient(135deg, #9d50bb 0%, #6e48aa 50%, #2d87ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #05010d;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(157, 80, 187, 0.2);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(157, 80, 187, 0.45);
+}
